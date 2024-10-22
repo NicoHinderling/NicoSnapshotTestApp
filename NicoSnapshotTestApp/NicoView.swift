@@ -11,7 +11,7 @@ struct NicoView: View {
     var body: some View {
         VStack {
             Text("NicoView")
-            .foregroundStyle(.black)
+            .foregroundStyle(.purple)
         }
         .padding()
         .background(Color.red)
