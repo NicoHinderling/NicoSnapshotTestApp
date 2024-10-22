@@ -1,0 +1,34 @@
+name: Emerge PR iOS Upload (Snapshots)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-14
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode version
+        run: sudo xcode-select -s '/Applications/Xcode_15.4.app/Contents/Developer'
+
+      - name: Set up Ruby env
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1.4
+          bundler-cache: true
+
+      - name: Make script executable and run
+        run: |
+          chmod +x .github/scripts/ios/setup.sh
+          .github/scripts/ios/setup.sh
+
+      - name: Build & upload iOS snapshot binary to Emerge Tools
+        run: bundle exec fastlane ios build_upload_emerge_snapshot
+        env:
+          EMERGE_API_TOKEN: ${{ secrets.EMERGE_API_KEY }}
