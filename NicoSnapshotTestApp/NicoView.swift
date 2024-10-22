@@ -17,9 +17,3 @@ struct NicoView: View {
         .background(Color.red)
     }
 }
-
-struct NicoViewProvider: PreviewProvider {
-  static var previews: some View {
-    NicoView()
-  }
-}
