@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C348A1C62CC81BEE008CE84C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C348A1BC2CC81BEE008CE84C /* Preview Assets.xcassets */; };
+		C348A1C72CC81BEE008CE84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C348A1BF2CC81BEE008CE84C /* Assets.xcassets */; };
+		C348A1C82CC81BEE008CE84C /* ArrayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1BE2CC81BEE008CE84C /* ArrayBuilder.swift */; };
+		C348A1C92CC81BEE008CE84C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1C02CC81BEE008CE84C /* ContentView.swift */; };
+		C348A1CA2CC81BEE008CE84C /* NicoSnapshotTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1C22CC81BEE008CE84C /* NicoSnapshotTestApp.swift */; };
+		C348A1CB2CC81BEE008CE84C /* NicoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1C32CC81BEE008CE84C /* NicoView.swift */; };
+		C348A1CC2CC81BEE008CE84C /* PreviewVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1C42CC81BEE008CE84C /* PreviewVariants.swift */; };
+		C348A1D02CC81BF2008CE84C /* NicoSnapshotTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1CD2CC81BF2008CE84C /* NicoSnapshotTestAppTests.swift */; };
+		C348A1D12CC81BF2008CE84C /* SnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1CE2CC81BF2008CE84C /* SnapshotTest.swift */; };
+		C348A1D52CC81BF4008CE84C /* NicoSnapshotTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1D22CC81BF4008CE84C /* NicoSnapshotTestAppUITests.swift */; };
+		C348A1D62CC81BF4008CE84C /* NicoSnapshotTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A1D32CC81BF4008CE84C /* NicoSnapshotTestAppUITestsLaunchTests.swift */; };
 		C3AC6AB62CB6E07F006BD22D /* PreviewGallery in Frameworks */ = {isa = PBXBuildFile; productRef = C3AC6AB52CB6E07F006BD22D /* PreviewGallery */; };
 		C3AC6AB82CB6E07F006BD22D /* SnapshotPreferences in Frameworks */ = {isa = PBXBuildFile; productRef = C3AC6AB72CB6E07F006BD22D /* SnapshotPreferences */; };
 		C3AC6ABA2CB6E07F006BD22D /* Snapshotting in Frameworks */ = {isa = PBXBuildFile; productRef = C3AC6AB92CB6E07F006BD22D /* Snapshotting */; };
@@ -48,29 +59,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C348A1BC2CC81BEE008CE84C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C348A1BE2CC81BEE008CE84C /* ArrayBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBuilder.swift; sourceTree = "<group>"; };
+		C348A1BF2CC81BEE008CE84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C348A1C02CC81BEE008CE84C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C348A1C12CC81BEE008CE84C /* NicoSnapshotTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NicoSnapshotTestApp.entitlements; sourceTree = "<group>"; };
+		C348A1C22CC81BEE008CE84C /* NicoSnapshotTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicoSnapshotTestApp.swift; sourceTree = "<group>"; };
+		C348A1C32CC81BEE008CE84C /* NicoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicoView.swift; sourceTree = "<group>"; };
+		C348A1C42CC81BEE008CE84C /* PreviewVariants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVariants.swift; sourceTree = "<group>"; };
+		C348A1CD2CC81BF2008CE84C /* NicoSnapshotTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicoSnapshotTestAppTests.swift; sourceTree = "<group>"; };
+		C348A1CE2CC81BF2008CE84C /* SnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTest.swift; sourceTree = "<group>"; };
+		C348A1D22CC81BF4008CE84C /* NicoSnapshotTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicoSnapshotTestAppUITests.swift; sourceTree = "<group>"; };
+		C348A1D32CC81BF4008CE84C /* NicoSnapshotTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicoSnapshotTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C3AC6AF72CB6ED45006BD22D /* NicoSnapshotTestApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = NicoSnapshotTestApp.xctestplan; sourceTree = "<group>"; };
 		C3C0B16F2CB4410500784373 /* NicoSnapshotTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicoSnapshotTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C0B1802CB4410700784373 /* NicoSnapshotTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicoSnapshotTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C0B18A2CB4410700784373 /* NicoSnapshotTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicoSnapshotTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C3C0B1712CB4410500784373 /* NicoSnapshotTestApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NicoSnapshotTestApp;
-			sourceTree = "<group>";
-		};
-		C3C0B1832CB4410700784373 /* NicoSnapshotTestAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NicoSnapshotTestAppTests;
-			sourceTree = "<group>";
-		};
-		C3C0B18D2CB4410700784373 /* NicoSnapshotTestAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NicoSnapshotTestAppUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C3C0B16C2CB4410500784373 /* Frameworks */ = {
@@ -103,6 +108,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C348A1BD2CC81BEE008CE84C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C348A1BC2CC81BEE008CE84C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C348A1C52CC81BEE008CE84C /* NicoSnapshotTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				C348A1BD2CC81BEE008CE84C /* Preview Content */,
+				C348A1BE2CC81BEE008CE84C /* ArrayBuilder.swift */,
+				C348A1BF2CC81BEE008CE84C /* Assets.xcassets */,
+				C348A1C02CC81BEE008CE84C /* ContentView.swift */,
+				C348A1C12CC81BEE008CE84C /* NicoSnapshotTestApp.entitlements */,
+				C348A1C22CC81BEE008CE84C /* NicoSnapshotTestApp.swift */,
+				C348A1C32CC81BEE008CE84C /* NicoView.swift */,
+				C348A1C42CC81BEE008CE84C /* PreviewVariants.swift */,
+			);
+			path = NicoSnapshotTestApp;
+			sourceTree = "<group>";
+		};
+		C348A1CF2CC81BF2008CE84C /* NicoSnapshotTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C348A1CD2CC81BF2008CE84C /* NicoSnapshotTestAppTests.swift */,
+				C348A1CE2CC81BF2008CE84C /* SnapshotTest.swift */,
+			);
+			path = NicoSnapshotTestAppTests;
+			sourceTree = "<group>";
+		};
+		C348A1D42CC81BF4008CE84C /* NicoSnapshotTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C348A1D22CC81BF4008CE84C /* NicoSnapshotTestAppUITests.swift */,
+				C348A1D32CC81BF4008CE84C /* NicoSnapshotTestAppUITestsLaunchTests.swift */,
+			);
+			path = NicoSnapshotTestAppUITests;
+			sourceTree = "<group>";
+		};
 		C3AC6ACA2CB6E553006BD22D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,9 +160,9 @@
 			isa = PBXGroup;
 			children = (
 				C3AC6AF72CB6ED45006BD22D /* NicoSnapshotTestApp.xctestplan */,
-				C3C0B1712CB4410500784373 /* NicoSnapshotTestApp */,
-				C3C0B1832CB4410700784373 /* NicoSnapshotTestAppTests */,
-				C3C0B18D2CB4410700784373 /* NicoSnapshotTestAppUITests */,
+				C348A1C52CC81BEE008CE84C /* NicoSnapshotTestApp */,
+				C348A1CF2CC81BF2008CE84C /* NicoSnapshotTestAppTests */,
+				C348A1D42CC81BF4008CE84C /* NicoSnapshotTestAppUITests */,
 				C3AC6ACA2CB6E553006BD22D /* Frameworks */,
 				C3C0B1702CB4410500784373 /* Products */,
 			);
@@ -147,9 +193,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C3C0B1712CB4410500784373 /* NicoSnapshotTestApp */,
-			);
 			name = NicoSnapshotTestApp;
 			packageProductDependencies = (
 				C3AC6AB52CB6E07F006BD22D /* PreviewGallery */,
@@ -171,9 +214,6 @@
 			);
 			dependencies = (
 				C3C0B1822CB4410700784373 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C3C0B1832CB4410700784373 /* NicoSnapshotTestAppTests */,
 			);
 			name = NicoSnapshotTestAppTests;
 			packageProductDependencies = (
@@ -197,9 +237,6 @@
 			);
 			dependencies = (
 				C3C0B18C2CB4410700784373 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C3C0B18D2CB4410700784373 /* NicoSnapshotTestAppUITests */,
 			);
 			name = NicoSnapshotTestAppUITests;
 			packageProductDependencies = (
@@ -234,6 +271,7 @@
 				};
 			};
 			buildConfigurationList = C3C0B16A2CB4410500784373 /* Build configuration list for PBXProject "NicoSnapshotTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -245,7 +283,6 @@
 			packageReferences = (
 				C3AC6AB42CB6E07F006BD22D /* XCRemoteSwiftPackageReference "SnapshotPreviews-iOS" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = C3C0B1702CB4410500784373 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C348A1C62CC81BEE008CE84C /* Preview Assets.xcassets in Resources */,
+				C348A1C72CC81BEE008CE84C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +325,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C348A1C82CC81BEE008CE84C /* ArrayBuilder.swift in Sources */,
+				C348A1C92CC81BEE008CE84C /* ContentView.swift in Sources */,
+				C348A1CA2CC81BEE008CE84C /* NicoSnapshotTestApp.swift in Sources */,
+				C348A1CB2CC81BEE008CE84C /* NicoView.swift in Sources */,
+				C348A1CC2CC81BEE008CE84C /* PreviewVariants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +337,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C348A1D02CC81BF2008CE84C /* NicoSnapshotTestAppTests.swift in Sources */,
+				C348A1D12CC81BF2008CE84C /* SnapshotTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C348A1D52CC81BF4008CE84C /* NicoSnapshotTestAppUITests.swift in Sources */,
+				C348A1D62CC81BF4008CE84C /* NicoSnapshotTestAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +423,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -430,6 +479,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -464,14 +514,16 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.NicoSnapshotTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -506,12 +558,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.NicoSnapshotTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -529,11 +583,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.NicoSnapshotTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NicoSnapshotTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NicoSnapshotTestApp";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -552,11 +608,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.NicoSnapshotTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NicoSnapshotTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NicoSnapshotTestApp";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -574,11 +632,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.NicoSnapshotTestAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NicoSnapshotTestApp;
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -596,11 +656,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.NicoSnapshotTestAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NicoSnapshotTestApp;
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
