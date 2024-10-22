@@ -24,4 +24,4 @@ struct NicoViewProvider: PreviewProvider {
   }
 }
 
-// Add some comment that doesn't cause changes
+// Add some comment that doesn't cause changes, and then change it
