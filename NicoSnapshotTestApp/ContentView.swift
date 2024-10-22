@@ -18,3 +18,10 @@ struct ContentView: View {
         .padding()
     }
 }
+
+struct ContentViewProvider: PreviewProvider {
+  static var previews: some View {
+    ContentView()
+  }
+}
+
