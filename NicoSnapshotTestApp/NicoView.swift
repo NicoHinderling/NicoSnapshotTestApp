@@ -14,7 +14,7 @@ struct NicoView: View {
             .foregroundStyle(.white)
         }
         .padding()
-        .background(Color.blue)
+        .background(Color.red)
     }
 }
 
