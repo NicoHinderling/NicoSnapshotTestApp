@@ -14,7 +14,6 @@ struct NicoView: View {
             .foregroundStyle(.white)
         }
         .padding()
-        .frame(maxWidth: .infinity, maxHeight: .infinity) // Make it fill the screen
         .background(Color.blue)
     }
 }
