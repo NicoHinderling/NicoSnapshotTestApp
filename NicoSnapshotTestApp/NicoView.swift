@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NicoNameTwoView: View {
+struct NicoNameThreeView: View {
     var body: some View {
         VStack {
             Text("NicoView")
@@ -18,9 +18,9 @@ struct NicoNameTwoView: View {
     }
 }
 
-struct NicoNameTwoViewProvider: PreviewProvider {
+struct NicoNameThreeViewProvider: PreviewProvider {
   static var previews: some View {
-    NicoNameTwoView()
+    NicoNameThreeView()
   }
 }
 
